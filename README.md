@@ -1,5 +1,8 @@
 This repository contains the code from my 2026 REU at the University of Rochester studying how machine learning can be used to reconstruct exiting muon momentum in the ICARUS neutrino detector. 
 I worked with Dr. Chris Marshall and Kiyoung Jung on this project. 
+
+Neutrinos, a tiny neutral fundamental particle, could be key in understanding fundamental truths about our universe. To study them, experiments such as ICARUS send a beam of neutrinos into a Liquid Argon Time Projection Chamber (LArTPC) and measure the energy of the neutrino by counting up the energy of the particles created from the interaction. Muons, a byproduct of these neutrino-argon interactions, exit neutrino detectors at a non-negligable rate and thus we are unable to find their momentum through range based methods. Our study aims to develop and optimize a novel way of detecting muon momentum through a machine learning algorithm trained on multiple coulomb scattering based track features. We additionally study how the resolution of pt  variable, a measurement of transverse momentum sensitive nuclear effects within the argon atom, improved as a function of muon momentum. We used a Gated Recurrent Unit and found a significant improvement of momentum resolution at high energies and an improvement of the pt resolution by a factor of over 2. This work could be implemented not only within the ICARUS experiment but additionally in DUNE and other LArTPC’s. 
+
 Versions 1-5 used a Deep Neural Net that was ineffective at any attempt of reconstruction. 
 These versions are not represented in this repository. 
 
